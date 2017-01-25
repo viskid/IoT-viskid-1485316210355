@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-viskid
+  host: IoT-viskid
+  disk_quota: 1024M
+  services:
+  - IoT-viskid-cloudantNoSQLDB
+  - IoT-viskid-iotf-service
